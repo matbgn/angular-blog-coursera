@@ -6,10 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  post: {
-    title: string,
-    content: string,
-    loveIts: number,
-    created_at: Date
-  } 
+
 }

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostListComponentComponent implements OnInit {
 
+  postTitle: string = 'Mon premier post';
+
   constructor() { }
 
   ngOnInit() {
