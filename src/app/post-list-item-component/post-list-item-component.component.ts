@@ -9,6 +9,8 @@ export class PostListItemComponentComponent implements OnInit {
 
   @Input() postTitle: string;
 
+  lastUpdate = new Date();
+
   constructor() {}
 
   ngOnInit() {

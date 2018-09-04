@@ -3,8 +3,9 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\post-list-component"
+    "\\src\\app\\post-list-component",
+    "\\src\\app\\post-list-item-component"
   ],
-  "SelectedNode": "\\src\\app\\post-list-component\\post-list-component.component.ts",
+  "SelectedNode": "\\src\\app\\post-list-item-component\\post-list-item-component.component.ts",
   "PreviewInSolutionExplorer": false
 }
