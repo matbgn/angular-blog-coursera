@@ -1,15 +1,5 @@
-<div class="jumbotron">
-  <h1>
-    Posts
-  </h1>
-</div>
-
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12">
-      <ul class="list-group">
-        <h2>{{ postTitle }}</h2>
-      </ul>
-    </div>
-  </div>
-</div>
+<li class="list-group-item">
+  <app-post-list-item-component [postTitle]="postTitleOne"></app-post-list-item-component>
+  <app-post-list-item-component [postTitle]="postTitleTwo"></app-post-list-item-component>
+  <app-post-list-item-component [postTitle]="postTitleThree"></app-post-list-item-component>
+</li>
